@@ -90,17 +90,50 @@ ret
 
 
 ## Output  
- 
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/a06643ef-d213-4012-9be6-c77d3ec27d4a" />
+
 ## Subtraction   of 8 bit numbers  ALP 
+ ```
+org 100h
+
+mov ax,10abh
+mov bx,20cdh
+sub ax,[bx]
+
+ret
+```
  
 ## Output  
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/e131fd0f-319f-4763-8c4f-95278ea6dcbf" />
+
 ## Multiplication alp 
+```
+org 100h
+
+mov ax,023ah
+mov bx,02a1h
+mul bx
+
+ret
+```
  ## Output  
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/2fbb46fd-d4be-411e-a057-0c94cc856644" />
 
 
 ## Division alp 
+```
+org 100h
+
+mov ax,023ah
+mov bx,02a1h
+div bx
+
+ret
+```
 
 ## Output  
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/07e86287-4db9-438d-a32d-c55df2ba808c" />
+
 
 
 ## Result :
