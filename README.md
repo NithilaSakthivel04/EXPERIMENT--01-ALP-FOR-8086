@@ -134,10 +134,63 @@ ret
 ## Output  
 <img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/07e86287-4db9-438d-a32d-c55df2ba808c" />
 
+## AND alp
+```
+org 100h
+
+mov ax,15cah
+mov bx,18edh
+and ax,bx
+
+ret
+```
+## Output
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/b620845b-62c6-446a-9d00-21f5ff5f329c" />
+
+## Or alp
+```
+org 100h
+
+mov ax,15cah
+mov bx,18edh
+or ax,[bx]
+
+ret
+```
+## Output
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/59d1093d-d869-4a4c-8289-8ce68de841ed" />
+
+## Not alp
+```
+org 100h
+
+mov ax,023ah
+not bx
+
+ret
+
+```
+## Output
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/f966089f-1587-44c2-9e02-e031f6375bf6" />
+
+## Xor alp
+```
+org 100h
+
+mov ax,023ah
+mov bx,02a1h
+xor ax,bx
+
+ret
+```
+
+## Output
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/eb32b154-294a-4e47-a8bd-bf26b617da87" />
+
 
 
 ## Result :
- 
+ The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
