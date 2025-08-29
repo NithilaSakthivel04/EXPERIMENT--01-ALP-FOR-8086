@@ -173,7 +173,7 @@ ret
 ## Output
 <img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/f966089f-1587-44c2-9e02-e031f6375bf6" />
 
-## Xor alp
+## XOR alp
 ```
 org 100h
 
@@ -186,6 +186,17 @@ ret
 
 ## Output
 <img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/eb32b154-294a-4e47-a8bd-bf26b617da87" />
+
+## XNOR alp
+MOV AX,[3001h]
+MOV BX,[3003h]
+XOR AX,BX
+NOT AX
+MOV [3005h],AX
+HLT
+
+## Output
+<img width="1919" height="1085" alt="Screenshot 2025-08-29 103447" src="https://github.com/user-attachments/assets/5f1dac60-7c5b-40a9-8f45-cb0a7c4a032b" />
 
 
 
